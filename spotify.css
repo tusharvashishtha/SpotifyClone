@@ -188,3 +188,102 @@ article button:hover {
     display: inline-block; 
  }   
 }
+
+#students-offer {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 20px;
+}
+
+#students-offer button{
+    background-color: rgb(255, 255, 255);
+    padding: 12px 40px;
+    font-family: inherit;
+    color: rgb(25, 20, 20);
+    font-weight: 700;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#students-offer button:hover{
+    transform: scale(1.02);
+}
+
+#students-offer form {
+    margin-top: 20px;
+    border: 1px solid rgb(170, 170, 170);
+    border-radius: 10px;
+    padding: 25px;
+    text-align: left;
+}
+
+#email {
+    font-family: inherit;
+    padding: 5px;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+#first-name,#last-name{
+    font-family: inherit;
+    padding: 5px;
+    width: 46%;
+}
+
+@media (max-width: 650px) {
+  #first-name,
+  #last-name {
+    width: 100%;
+    padding: 5px;
+    width: 46%;
+  }
+}
+
+#country,#college-university {
+    font-family: inherit;
+    padding: 5px;
+    width: 100%;
+    margin: 5px;
+}
+
+#contact-number {
+    display: block;
+    font-family: inherit;
+    padding: 5px;
+    width: 100%;
+    margin: 10px;
+}
+
+#consent-checkout {
+    cursor: pointer;
+}
+
+#students-offer form button {
+    display: block;
+    margin-top: 10px;
+}
+
+#contact {
+    text-align: center;
+    padding: 40px;
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+}
+
+#contact a {
+    text-decoration: none; 
+}
+
+#contact a i {
+    color: rgb(255, 255, 255);
+    margin: 10px;
+    size: 1.5rem;  
+}
+
+#contact a i:hover {
+    color: rgb(30, 215, 96);
+}
+
+#contact p {
+    color: rgb(170, 170, 170);
+}
